@@ -7,7 +7,7 @@ slim = tf.contrib.slim
 
 _BATCH_NORM_DECAY = 0.9
 _BATCH_NORM_EPSILON = 1e-05
-_LEAKY_RELU = 0.1
+_LEAKY_RELU = 0.1           #LeekRelu激励函数的alpha
 
 _ANCHORS = [(10, 13), (16, 30), (33, 23),
             (30, 61), (62, 45), (59, 119),
